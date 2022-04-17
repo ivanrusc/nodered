@@ -1,0 +1,11 @@
+version: "2.4"
+services:
+  nodered:
+    container_name: nodered
+    hostname: nodered
+    image: nodered/node-red
+    ports:
+      - 1880:1880
+    restart: always
+    volumes:
+      - ./node-red-data:/data

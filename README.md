@@ -1,4 +1,9 @@
 # nodered
-instal·lar nodered rn una Raspberry Pi amb docker-compose
+# instal·lar nodered en una Raspberry Pi amb docker-compose
 
-bla, bla, bla.
+
+:~$ mkdir docker
+:~$ cd docker
+:~$ mkdir node-red-data
+:~$ nano docker-compose.yml
+:~$ docker-compose up -d
